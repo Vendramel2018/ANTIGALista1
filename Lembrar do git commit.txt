@@ -1,0 +1,11 @@
+Sempre que for atualizar algum arquivo, dê um git pull antes para baixar as alterações feitas por outros usuarios
+	git pull
+
+
+SEQUENCIA para enviar alterações para master
+Comando para adicionar os itens
+	git add .
+Comando para descrever o commit
+	git commit -m "descrição do commit"
+Comando para enviar para o server
+	git push

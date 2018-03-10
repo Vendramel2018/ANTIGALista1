@@ -1,0 +1,83 @@
+Visitas
+
+	.O visitante recebe um cartão eletrônico na entrada do Museu
+	
+	.Capacidade Máxima fica ligada a exposição e a sala reservada para a exposição (limite varia de sala para sala)
+		.O cartão magnético deve ser passado no validador eletronico no momento da entrada do visitante na SALA DA EXPOSIÇÃO para controle do fluxo de 				visitantes.
+
+	.Cartão Magnético deve ser devolvido na saída
+
+	.DADOS BÁSICO DO VISITANTE
+		.NOME
+		.RG
+		.CELULAR
+		.E-MAIL
+
+	ATORES: Visitante, Atendente
+
+----------------------------------------------------------------
+Acervo
+
+	.DADOS ACERVO (Obras em Geral)
+		.identificação
+		.tipo de obra
+		.categoria	
+		.autor
+		.dados biograficos
+		.título
+		.data da obra
+		.técnica
+			
+		
+	.DADOS ACERVO (Documentos Históricos)
+
+		. (AGUARDANDO RESPOSTA VENDRAMEL)
+
+	ATORES: Gerente (Nome sujeito a mudanças)
+
+----------------------------------------------------------------
+Exposição
+		
+	.Auto Explicativo
+
+----------------------------------------------------------------
+Restauração
+
+	.As restaurações serão apenas terceirizadas
+	
+	Restauração
+		.data de Solicitação
+		.valor
+		.duração
+		.andamento
+		.data conclusão
+
+	ATORES: Empresa Tercerizada
+
+----------------------------------------------------------------
+Evento
+	
+	.Evento
+		.Titulo
+		.Data
+		.Horario
+		.Valor
+		.responsável
+		.numero de visitantes
+
+	ATORES: Responsavel pelo evento (Pode ser o Gerente, porém ainda precisa definir), Visitante
+
+----------------------------------------------------------------
+Venda de Souvenir
+	
+	.Venda de Souvenir
+		.Visitantes cadastrados no museu possuem 15% de desconto
+			
+	ATORES: Atendente (É diferente do atendente da entrada)
+
+----------------------------------------------------------------
+DUVIDAS
+
+.um cadastro unificado de acervo físico (obras em geral) e virtual (Documentos Históricos),
+	.Todas as obras são Documentos Históricos?
+	.Devemos manter um cadastro para obras em geral e outro para Documentos historicos?
